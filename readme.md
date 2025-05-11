@@ -14,12 +14,17 @@ This repository contains the backend implementation of ALOTs, built using Java, 
 * Configuration for MongoDB integration.
 * Initial `User` entity to represent user data.
 * A basic health check API endpoint (`/health`).
-* (Potentially) User data retrieval endpoint (`/users`).
+* User data retrieval endpoint (`/users`).
+* Added service layer to handle business logic for user-related operations.
+* Initial repository interface (UserRepository) for database interactions.
+* Created a sample user data entry in MongoDB.
 
 ### Technologies Used (Backend)
 
 * Java
 * Spring Boot
+* MongoDB
+* Maven
 
 ## Getting Started (Backend Development)
 
@@ -50,6 +55,11 @@ This repository contains the backend implementation of ALOTs, built using Java, 
 5.  **API Endpoints:**
     * `/health` (GET): Checks if the backend is running.
     * `/users` (GET): (Working) Retrieves a list of users.
+    * /users/{id} (GET): Retrieves a single user by their ID.
+
+6.  **Database:**
+    * The application connects to MongoDB. Make sure to insert some sample 
+      user data into the users collection for testing the /users endpoint.
 
 ## Contributing
 

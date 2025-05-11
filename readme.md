@@ -49,7 +49,7 @@ This repository contains the backend implementation of ALOTs, built using Java, 
 
 5.  **API Endpoints:**
     * `/health` (GET): Checks if the backend is running.
-    * `/users` (GET): (If implemented) Retrieves a list of users.
+    * `/users` (GET): (Working) Retrieves a list of users.
 
 ## Contributing
 
@@ -57,7 +57,7 @@ MADHAV SHARMA (@themadhavsharma)
 
 ## License
 
-(You can add information about the project's license if you have one.)
+(We will add information about the project's license if when we have one.)
 
 ## Contact
 
